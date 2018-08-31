@@ -1,0 +1,5 @@
+﻿  sample.cpp
+c:\users\davidge\downloads\linge_ge_proj7a - copy\glui.h(758): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\davidge\downloads\linge_ge_proj7a - copy\sample.cpp(746): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+  NewVS2015B.vcxproj -> C:\Users\davidge\Downloads\linge_ge_proj7a - Copy\Debug\NewVS2015B.exe

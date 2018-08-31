@@ -1,0 +1,3 @@
+Understanding False Sharing
+
+We explore fixes to false sharing by creating a program that creates a struct of a floating value and an array padding of variable elements. Depending the number of concurrent threads being used, the program creates that many arrays of the struct, and does a billion arithmetic addition (modification) on the same struct’s floating value of each array element. Without sufficient padding, the structs’ floating values line on the same cache line, and these modifications cause false sharing. We explore two fixes (padding and modifying temp variables instead) to fix this issue.
